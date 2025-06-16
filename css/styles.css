@@ -1,0 +1,691 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style-type: none;
+}
+#sticky{
+    width: 100%;
+    position: sticky;
+    top: 2%;
+    z-index: +2;
+    color: black;
+    display: flex;
+}
+#myNav{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-weight: 800;
+    font-size: medium;
+    padding: 1%;
+}
+.no1{
+    display: flex;
+    flex-direction: row;
+    width: 62%;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 3%;
+}
+.no1 li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21%;
+    border-radius: 15px;
+    backdrop-filter: blur(1%);
+    border-block-end: 3px solid black;
+    box-shadow: 0 0 30px grey;
+}
+.no1 li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkcyan !important;
+    
+}
+.no1 li a:hover{
+    font-size: 22px;
+    font-weight: bolder;
+    border-block-end: 2px solid black;
+    box-shadow: 0 0 30px grey;
+    border-radius: 10px;
+    color: darkcyan !important;
+}
+.logo{
+    width: 18%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    color: white !important;
+}
+.logo a{
+    color: white !important;
+    border-radius: 15px;
+    padding: 2%;
+}
+.no2{
+    width: 15%;
+    border-radius: 50px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.no2 li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-block-end: 3px solid black;
+    box-shadow: 0 0 30px grey;
+    border-radius: 15px;
+}
+.no2 li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: darkcyan !important;
+}
+.no2 li a:hover{
+    color: darkcyan !important;
+    font-size: 20px;
+}
+#slider{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 0%;
+}
+.auto{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+}
+.auto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.autotext{
+    position: absolute;
+    padding: 5%;
+    z-index: +2;
+    top: 0%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    border-radius: 15px;
+}
+.autotext h1{
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+}
+.autotext p{
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+button{
+    background-color: darkcyan;
+    border: none;
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+}
+button a{
+    font-size: xx-large;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    color: yellowgreen;
+    font-size: x-large;
+}
+.auto:nth-child(1){
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 40px grey;
+}
+.auto:nth-child(2){
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 40px grey;
+}
+.auto:nth-child(3){
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 40px grey;
+}
+.auto:nth-child(4){
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 40px grey;
+}
+.auto:nth-child(5){
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 40px grey;
+}
+.auto:nth-child(6){
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 40px grey;
+}
+.auto:nth-child(7){
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 40px grey;
+}
+.auto:nth-child(8){
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 40px grey;
+}
+#back{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    cursor: pointer;
+}
+#forth{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    cursor: pointer;
+}
+#design{
+    width: 100%;
+    text-decoration: dotted;
+    padding: 2%;
+}
+.literacy{
+    font-size: 30px;
+}
+
+#art2{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.art2box1{
+    width: 48%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 15px;
+}
+.art2box1 img{
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+}
+.register{
+    background-color: chocolate;
+    color: white;
+    width: 100%;
+    padding: 1%;
+    border-radius: 15px;
+}
+.edu{
+    font-size: 35px;
+    font-weight: 900;
+}
+#sec4{
+    width: 100%;
+    padding: 2%;
+}
+#sec4kid{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-radius: 10px;
+}
+.sec4box1{
+    width: 48%;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sec4box1 div{
+    width: 98%;
+    margin: 1%;
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background: bisque;
+    border-block-end: 5px solid burlywood;
+    border-block-start: 5px solid burlywood;
+}
+.sec4box1 div:hover{
+    width: 100%;
+    background-color: bisque;
+    font-size: 20px;
+    border-block-end: 5px solid black;
+    border-block-start: 5px solid black;
+}
+.sec4box1 h2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.under{
+    text-decoration: underline;
+}
+.price{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#sec5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.myp{
+    width: 50%;
+}
+.imglearn2{
+    width: 100%;
+    height: 700px;
+}
+#sec6{
+    width: 100%;
+    padding: 1%;
+}
+#why{
+    width: 95%;
+    margin: auto;
+    padding: 1%;
+}
+#purpose1{
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+}
+#purpose1 div{
+    border-radius: 15px;
+    padding: 2%;
+    width: 48%;
+    margin: 1%;
+    background-color: papayawhip;
+}
+
+/* Products. html styling*/
+
+#slider-container{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding: 5%;
+}
+.slide{
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    padding: 5%;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.arrow{
+    width: 25px;
+}
+.slide h1{
+    font-size: 40px;
+}
+.slide a{
+    font-size: 20px;
+    color: burlywood;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 2%;
+}
+.slide:nth-child(1){
+    background-color: darkcyan;
+    font-size: 25px;
+}
+.slide:nth-child(2){
+    background-color: darkcyan;
+    font-size: 25px;
+}
+.slide:nth-child(3){
+    background-color: darkcyan;
+    font-size: 25px;
+}
+.slide:nth-child(4){
+    background-color: darkcyan;
+    font-size: 25px;
+}
+.slide:nth-child(5){
+    background-color: darkcyan;
+    font-size: 25px;
+}
+.slide:nth-child(6){
+    background-color: darkcyan;
+    font-size: 25px;
+}
+.slide:nth-child(7){
+    background-color: darkcyan;
+    font-size: 25px;
+}
+.slide:nth-child(8){
+    background-color: darkcyan;
+    font-size: 25px;
+}
+#prev{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    cursor: pointer;
+}
+#next{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    cursor: pointer;
+}
+#software{
+    width: 100%;
+    padding: 5%;
+}
+.hsoft{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.psoft{
+    font-size: 20px;
+}
+.softchild{
+    width: 95%;
+    margin: auto;
+    overflow-y: auto;
+    padding: 2%;
+    border-radius: 15px;
+    display: flex;
+}
+.softchild div{
+    min-width: 400px;
+    min-height: 200px;
+    padding: 2%;
+    margin: 2%;
+    background-color: darkcyan;
+    border-radius: 20px;
+    color: white;
+}
+.tools{
+    list-style-type: armenian !important;
+}
+.Duration{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.bsoft{
+    border: none;
+    width: 30%;
+    height: 35px;
+    background-color: white;
+    color: darkcyan;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 30%;
+    border-block-end: 3px solid black;
+    box-shadow: 0 0 30px grey;
+}
+#business{
+    width: 100%;
+    padding: 5%;
+}
+.buschild{
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 15px;
+    display: flex;
+}
+.buschild div{
+    width: 31.33%;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 20px;
+    border: 4px solid burlywood;
+}
+#ict{
+    width: 98%;
+    padding: 5%;
+    background-color: darkcyan;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+}
+.ictchild{
+    width: 98%;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    margin-left: 10%;
+}
+.ictchild div{
+    width: 31.33%;
+}
+.ictchild div h1{
+    font-size: 30px !important;
+}
+.ictchild div h2{
+    cursor: pointer;
+}
+.bict{
+    border: none;
+    width: 20%;
+    height: 35px;
+    background-color: white;
+    color: darkcyan;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 40%;
+    border-block-end: 3px solid black;
+    box-shadow: 0 0 30px grey;
+}
+#basic{
+    width: 100%;
+    padding: 5%;
+}
+.basichild{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.basichild div{
+    width: 31.33%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: bisque;
+}
+.when{
+    display: flex;
+    justify-content: space-between;
+}
+#wrapper{
+    width: 70%;
+    margin: 3% auto;
+}
+#wrapper h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 3% auto;
+}
+#accordion_wrapper{
+    width: 100%;
+    margin-top: 3%;
+}
+#accordion_head{
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    border-radius: 20px;
+}
+#accordion_body{
+    width: 100%;
+    padding: 1%;
+    background-color: bisque;
+    display: none;
+}
+.active{
+    display: block !important;
+}
+#title{
+    width: 90%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.9);
+}
+#accordion_head span{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#mission{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+#myfooter{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 4%;
+}
+.testi{
+    color: burlywood;
+}
+#footerwrap{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.footerinfo1{
+    width: 31.33%;
+    margin: 1%;
+    padding: 2%;
+    color: white !important;
+}
+.footerinfo2{
+    width: 31.33%;
+    margin: 1%;
+    padding: 2%;
+    color: white !important;
+}
+.footerinfo2 a{
+    color: white !important;
+}
+.footerinfo3{
+    width: 31.33%;
+    margin: 1%;
+    padding: 2%;
+    color: white !important;
+}
+.footerinfo1 a:hover{
+    color: darkcyan !important;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footerinfo2 a:hover{
+    color: darkcyan !important;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footerinfo3 a:hover{
+    color: darkcyan !important;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footerinfo3 a{
+    color: white !important;
+}
+.footerinfo1 a{
+    color: white !important;
+}
+.footerinfo1 a:hover{
+    color: darkcyan !important;
+    font-size: 20px;
+    cursor: pointer;
+}
