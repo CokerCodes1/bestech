@@ -1,0 +1,133 @@
+/*the mediaquery css file must be under your main stylesheet*/
+
+/* Nest Hub Max */
+@media screen and (max-width: 1280px) {
+    :root {
+  --max-width: 1200px;
+  --gutter: 16px;
+}
+
+.container {
+  max-width: var(--max-width);
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  margin: 0 auto;
+}
+
+}
+
+
+/* Nest Hub */
+@media screen and (max-width: 1024px) {
+    
+}
+/* Surface Pro 7 */
+@media screen and (max-width: 912px) {
+    
+}
+
+/* For iPad Air */
+@media screen and (max-width: 820px) {
+    #sticky{
+        top: 0;
+    }
+    .autotext h1{
+        font-size: 70px;
+    }
+    .sec4box1 div{
+        width: 80%;
+    }
+}
+
+/* For iPad Mini */
+@media screen and (max-width: 768px) {
+    .hamburger{
+        display: flex;
+        width: 10%;
+        border-radius: 5px;
+    }
+    .no1, .no2{
+        display: none;
+    }
+}
+
+/* For Surface Duo */
+@media screen and (max-width: 540px) {
+    .autotext h1{
+        font-size: 60px;
+    }
+    .autotext p{
+        font-size: 25px;
+    }
+    button{
+    background-color: darkcyan;
+    border: none;
+    width: 40%;
+    height: 50px;
+    border-radius: 15px;
+}
+.autotext{
+    padding: 6%;
+}
+#sec4kid{
+    flex-direction: column;
+}
+.sec4box1{
+    width: 100%;
+}
+.sec4box1 div{
+    width: 100%;
+}
+#footerwrap{
+    flex-direction: column;
+}
+.footerinfo1, .footerinfo2, .footerinfo3{
+    width: 90%;
+}
+#sec5{
+    flex-direction: column;
+}
+.myp{
+    width: 100%;
+}
+#art2{
+    flex-direction: column;
+}
+.art2box1{
+    width: 100%;
+}
+}
+
+/* iPhone XR */
+@media screen and (max-width: 414px) {
+    
+}
+
+@media screen and (max-width: 412px) {
+    
+}
+
+@media screen and (max-width: 393px) {
+    
+}
+
+/* For iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+    
+}
+
+@media screen and (max-width: 375px) {
+    
+}
+
+@media screen and (max-width: 360px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (max-width: 280px) {
+    
+}
