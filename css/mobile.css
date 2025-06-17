@@ -54,17 +54,23 @@
 /* For Surface Duo */
 @media screen and (max-width: 540px) {
     .autotext h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     .autotext p{
-        font-size: 25px;
+        font-size: 20px;
     }
     button{
     background-color: darkcyan;
     border: none;
-    width: 40%;
+    width: 55%;
     height: 50px;
     border-radius: 15px;
+}
+.logo{
+    width: 30%;
+}
+.hamburger{
+    width: 15%;
 }
 .autotext{
     padding: 6%;
